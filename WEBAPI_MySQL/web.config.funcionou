@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <location path="." inheritInChildApplications="false">
+    <system.webServer>
+      <handlers>
+        <add name="aspNetCore" path="*" verb="*" modules="AspNetCoreModule" resourceType="Unspecified" />
+      </handlers>
+      <aspNetCore processPath=".\daniel_api.exe" stdoutLogEnabled="false" stdoutLogFile=".\logs\stdout" />
+    </system.webServer>
+  </location>
+</configuration>
+<!--ProjectGuid: 75643655-b73a-4d84-854b-1020161974f0-->
